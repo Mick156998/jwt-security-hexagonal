@@ -1,0 +1,28 @@
+# alertmanager/alertmanager.yml
+global:
+  resolve_timeout: 5m
+
+# Configuración de enrutamiento de alertas
+route:
+  # Receptor por defecto
+  receiver: 'webhook-receiver'
+
+  # Tiempo de espera antes de enviar una alerta
+  group_wait: 10s
+
+  # Tiempo de espera antes de enviar notificación sobre nuevas alertas del mismo grupo
+  group_interval: 10s
+
+  # Tiempo mínimo entre dos notificaciones del mismo grupo
+  repeat_interval: 5m
+
+  # Agrupar alertas por estas etiquetas
+  group_by: ['alertname', 'cluster', 'severity']
+
+# Receptores de alertas
+receivers:
+  # Webhook para todas las alertas
+  - name: 'webhook-receiver'
+    webhook_configs:
+      - url: 'https://webhook.site/856d4c98-5553-433b-84d0-d948056881bc'
+        send_resolved: true

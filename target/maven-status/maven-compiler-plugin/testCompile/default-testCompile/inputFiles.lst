@@ -1,0 +1,6 @@
+C:\Users\miclchav\projects\PROJECT_SPRING_SECURITY\jwt-security-hexagonal\src\test\java\com\example\security\application\usecase\LoginUserUseCaseTest.java
+C:\Users\miclchav\projects\PROJECT_SPRING_SECURITY\jwt-security-hexagonal\src\test\java\com\example\security\application\usecase\RegisterUserUseCaseTest.java
+C:\Users\miclchav\projects\PROJECT_SPRING_SECURITY\jwt-security-hexagonal\src\test\java\com\example\security\domain\model\EmailTest.java
+C:\Users\miclchav\projects\PROJECT_SPRING_SECURITY\jwt-security-hexagonal\src\test\java\com\example\security\domain\model\PasswordTest.java
+C:\Users\miclchav\projects\PROJECT_SPRING_SECURITY\jwt-security-hexagonal\src\test\java\com\example\security\domain\model\RoleTest.java
+C:\Users\miclchav\projects\PROJECT_SPRING_SECURITY\jwt-security-hexagonal\src\test\java\com\example\security\infrastructure\adapter\input\rest\LoginUserIntegrationTest.java
